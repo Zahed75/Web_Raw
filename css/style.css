@@ -1,0 +1,154 @@
+
+.blog{
+    border: 1px  solid salmon;
+    margin: 5px;
+    border-radius: 10px;
+    width: 30%;
+  
+  float: left;
+  
+}
+
+.blog1{
+    border: 1px  solid salmon;
+    margin: 5px;
+    border-radius: 10px;
+  width: 30%;
+    float: left;
+}
+
+.blog2{
+    border: 1px  solid salmon;
+    margin: 5px;
+    border-radius: 10px;
+    width: 30%;
+   float: left;
+}
+ .tour h3,p{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+ .new_blog{
+ display: inline-block;
+margin: 5px;
+ border: 1px solid salmon;
+ padding: 20px;
+ width: 20%;
+ 
+}
+
+/* .dti{
+ margin: 5px;
+    border: 1px solid salmon;
+    padding: 20px;
+    width: 20%;
+    display: inline-block;
+}
+
+.dipti{
+  margin: 5px;
+    border: 1px solid salmon;
+    padding: 20px;
+    width: 20%;
+    display: inline-block;
+} */
+
+.probelm h3,p{
+    text-align: center;
+    justify-content: center;
+
+}  
+
+h3{
+  color: goldenrod;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+h3:hover{
+  color: greenyellow;
+  font-size: 50px;
+  background-color: indigo;
+}
+.special:hover{
+  color: greenyellow;
+  font-size: 30px;
+  border: 2px solid salmon;
+  width: 30%;
+
+}
+
+input:focus{
+  color: gold;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+li:nth-child(2n+1){
+  background-color: yellowgreen;
+
+}
+a:visited{
+  color: rgb(75, 2, 2);
+}
+
+.pera p{
+  text-align: left;
+  margin-left: 30px;
+}
+
+/* body {
+  counter-reset: problem;                      
+
+p::before {
+  counter-increment: problem;                  
+  content: "problem " counter(problem) ": ";   
+                                                   
+}  */
+
+h5::before{
+  content: "WebDev ";
+  font-size: x-large;
+  color: tomato;
+  background-color: teal;
+}
+
+h5::after{
+  content: "Next is BS5 ";
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+background-color: steelblue;
+
+}
+
+
+.crush p::before{
+  content: "❤️";
+}
+
+.container{
+  background-color: powderblue;
+}
+div{
+  height: 100px;
+  width: 100px;
+  background-color: slategrey;
+}
+
+#first{
+  background-color: purple;
+}
+#second{
+  background-color: red;
+  position: fixed;
+  left: 100px;
+
+
+  
+}
+
+#third{
+  background-color: seagreen;
+}
